@@ -1,0 +1,35 @@
+@media(max-width:575px){
+	.w-xs-1	{		
+		width: 100%;
+	}
+}
+@media(min-width: 576px){
+	.container{
+        max-width: 540px;
+    }
+	.w-sm-1	{
+		width: 100%;
+	}
+}
+@media(min-width: 768px)
+{
+	.w-md-2{
+		width: 50%;
+	}o
+	.container{
+        max-width:720px;
+    }
+}
+@media(max-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+	.w-lg-3{
+		width: 33.33%;
+	}
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
